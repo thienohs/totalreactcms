@@ -1,0 +1,34 @@
+{
+  "name": "Eshop",
+  "description": "A simple and powerful Eshop solution written in Total.js / Node.js.",
+  "version": "11.0.0",
+  "main": "release.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/totaljs/eshop"
+  },
+  "dependencies": {
+    "@blueprintjs/core": "^3.22.2",
+    "@types/node": "^12.12.17",
+    "@zeit/next-css": "^1.0.1",
+    "next": "file:libs/next.js/packages/next",
+    "paypal-express-checkout": "latest",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^4.4.1",
+    "total.js": "file:libs/totaljs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "next": "next",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [
+    "eshop",
+    "ecommerce"
+  ],
+  "author": "Peter Širka",
+  "license": "MIT"
+}
