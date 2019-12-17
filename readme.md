@@ -1,6 +1,6 @@
 [![MIT License][license-image]][license-url]
 
-# Supplier ECommerce
+# Total React CMS
 
 [![Professional Support](https://www.totaljs.com/img/badge-support.svg)](https://www.totaljs.com/support/) [![Chat with contributors](https://www.totaljs.com/img/badge-chat.svg)](https://messenger.totaljs.com)
 
@@ -25,10 +25,26 @@ Read more in [__documentation__](https://wiki.totaljs.com/?q=eshop+welcome).
 
 ## Installation - Customized version
 
+### Build totaljs
+- `$ cd libs/totaljs`
+- `$ npm install`
+- `$ cd ../../`
+
+### Build nextjs
+- `$ cd libs/next.js`
+- `$ npm i -g @zeit/ncc`
+- `$ yarn`
+- `$ cd ../../`
+
 ### Install dependencies
 - check if you have installed [GraphicsMagick](http://www.graphicsmagick.org/)
 - `$ npm install`
 
+### Run the program (development)
+- `$ npm run dev`
+
+
+## Instruction on linked local library
 ### Link local customized totaljs library instead of using the remote
 - `$ npm i libs/totaljs`
 - `$ npm i -g @zeit/ncc`
@@ -36,6 +52,3 @@ Read more in [__documentation__](https://wiki.totaljs.com/?q=eshop+welcome).
 - `$ yarn`
 - `$ cd ../../`
 - `$ npm i libs/next.js/packages/next`
-
-### Run the program (development)
-- `$ npm run dev`
